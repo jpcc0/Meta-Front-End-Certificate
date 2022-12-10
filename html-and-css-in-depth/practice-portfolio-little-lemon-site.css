@@ -1,0 +1,127 @@
+body{
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+h2 {
+    font-size: 2.1rem;
+
+}
+p{
+    font-weight: 400px;
+    font-size: small;
+
+}
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    background-color: rgb(213, 255, 171);
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: transparent;
+}
+nav ul{
+    list-style: none;
+    font-size: medium;
+    text-align: unset;
+    padding-inline-start: 0rem;
+}
+nav ul li{
+    display: inline-flex;
+    margin: 0.15rem;
+}
+nav ul a{
+    color: bisque;
+    text-decoration: none;
+}
+nav ul a:active{
+    text-decoration: line-through;
+}
+nav ul a:hover{
+    text-decoration: dashed;
+    text-decoration-line: line-through;
+}
+section{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+article{
+    flex: 1;
+    border-radius: 1rem;
+    border-bottom: 1.25rem;
+}
+article img{
+    max-width: 125%;
+}
+article ul{
+    list-style: none;
+    font-size: 1.3rem;
+}
+article a:link{
+    font-size: smaller;
+}
+article a:active{
+    text-decoration: line-through;
+}
+article a:hover{
+    color: none;
+    font-size: small;
+}
+main article{
+    background-color: grey;
+    background-color: transparent;
+}
+#hero{
+    background-image: url("../assets/Asset/ 1.png");
+    background-size: cover;
+    background-position: center;
+    color: blanchedalmond;
+    text-shadow: 2px 2px 6.5px;
+    text-align: left;
+}
+#hero h1{
+    margin-right: 2rem;
+    font-weight: 500;
+    font-size: small;
+}
+#hero p{
+    max-width: 100%;
+    margin-left: 16rem;
+    margin-right: 2rem;
+}
+footer{
+    margin: 1rem;
+    display: flex;
+    gap: 2rem 1.5rem;
+}
+footer img{
+    max-width: 50%;
+
+}
+footer p{
+    border-top: #222222;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    text-align: right;
+}
+footer div{
+    flex: 1;
+}
